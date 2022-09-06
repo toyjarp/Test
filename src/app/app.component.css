@@ -1,0 +1,11 @@
+.col1
+{
+    height:350px;
+    overflow-y: scroll;
+}
+#pp
+{
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+}

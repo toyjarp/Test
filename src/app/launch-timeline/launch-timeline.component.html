@@ -1,0 +1,8 @@
+<p-timeline [value]="events">
+    <ng-template pTemplate="content" let-event>
+        <small class="p-text-secondary">{{event.date}}</small>
+    </ng-template>
+    <ng-template pTemplate="opposite" let-event>
+        {{event.name}}
+    </ng-template>
+</p-timeline>
